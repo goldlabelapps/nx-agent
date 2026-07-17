@@ -10,13 +10,17 @@ The root README serves as the table of contents.
 3. [Leida AI Chat Architecture](docs/leida-ai-chat/architecture.md)
 4. [Leida AI Chat MVP Backlog](docs/leida-ai-chat/mvp-backlog.md)
 5. [Leida AI Chat Deployment Plan](docs/leida-ai-chat/deployment-plan.md)
+6. [Leida AI Chat Local Setup](docs/leida-ai-chat/local-setup.md)
+7. [Eve Init Comparison](docs/leida-ai-chat/eve-init-comparison.md)
 
 ## Agent Scaffold
 
-- `agents/leida-chat/instructions.md`
-- `agents/leida-chat/agent.ts`
-- `agents/leida-chat/skills/research.md`
-- `agents/leida-chat/tools/getProjectContext.ts`
+- `agent/instructions.md`
+- `agent/agent.ts`
+- `agent/channels/eve.ts`
+- `agent/skills/research.md`
+- `agent/tools/getProjectContext.ts`
+- `agent/tools/proposeSensitiveAction.ts`
 
 ## Docs Conventions
 

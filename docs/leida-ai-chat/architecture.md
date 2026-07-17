@@ -50,9 +50,10 @@ Leida AI Chat uses Eve as the agent runtime layer and Vercel primitives for mode
 
 ## Initial Repo Layout
 
-- agents/leida-chat/
+- agent/
   - instructions.md
   - agent.ts
+  - channels/eve.ts
   - skills/
   - tools/
 - docs/leida-ai-chat/
