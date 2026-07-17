@@ -12,6 +12,7 @@ The root README serves as the table of contents.
 5. [Leida AI Chat Deployment Plan](docs/leida-ai-chat/deployment-plan.md)
 6. [Leida AI Chat Local Setup](docs/leida-ai-chat/local-setup.md)
 7. [Eve Init Comparison](docs/leida-ai-chat/eve-init-comparison.md)
+8. [Leida AI Chat Verification](docs/leida-ai-chat/verification.md)
 
 ## Agent Scaffold
 
@@ -21,6 +22,17 @@ The root README serves as the table of contents.
 - `agent/skills/research.md`
 - `agent/tools/getProjectContext.ts`
 - `agent/tools/proposeSensitiveAction.ts`
+
+## Web Chat Scaffold
+
+- `next.config.ts` (with `withEve` integration)
+- `app/` (Next.js chat UI)
+- `components/` (UI elements scaffolded by Eve web channel)
+
+## Evals
+
+- `evals/evals.config.ts`
+- `evals/smoke.eval.ts`
 
 ## Docs Conventions
 

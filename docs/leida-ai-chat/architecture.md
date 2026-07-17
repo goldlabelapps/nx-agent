@@ -56,6 +56,11 @@ Leida AI Chat uses Eve as the agent runtime layer and Vercel primitives for mode
   - channels/eve.ts
   - skills/
   - tools/
+- app/
+  - Next.js web chat UI mounted with Eve routes via `withEve`
+- evals/
+  - evals.config.ts
+  - smoke.eval.ts
 - docs/leida-ai-chat/
   - project-charter.md
   - architecture.md
